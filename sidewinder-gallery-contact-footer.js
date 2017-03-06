@@ -21,11 +21,11 @@
       // Add contact info
       var contactInfo = "<div id='footer-contact-info'>";
       if (typeof settings.phone_number !== 'undefined' && settings.phone_number !== '') {
-        contactInfo += "<p>phone: " + settings.phone_number + "</p>";
+        contactInfo += '<p><a class="contact-link" href="tel: ' + settings.phone_number + '">phone: ' + settings.phone_number + '</a></p>';
       }
 
       if (typeof settings.email !== 'undefined' && settings.email !== '') {
-        contactInfo += "<p>email: " + settings.email + "</p>";
+        contactInfo += '<p><a class="contact-link" href="mailto: ' + settings.email + '">email: ' + settings.email + '</a></p>';
       }
 
       slider.after( contactInfo + "</div>" );

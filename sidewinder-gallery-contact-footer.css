@@ -95,3 +95,11 @@
 		order: 2;
 	}
 }
+
+.contact-link {
+	font-size: 1rem;
+	display: inline-block;
+	margin-bottom: 5px;
+	transition: 250ms ease-in-out;
+	text-decoration: none;
+}
